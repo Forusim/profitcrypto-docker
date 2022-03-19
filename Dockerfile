@@ -20,7 +20,7 @@ RUN git clone --branch ${BRANCH} https://github.com/ProfitCrypto/profit-blockcha
 
 ENV PATH=/profit-blockchain/venv/bin/:$PATH
 
-EXPOSE 8655
+EXPOSE 48444
 WORKDIR /profit-blockchain
 
 COPY ./entrypoint.sh entrypoint.sh
